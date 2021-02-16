@@ -76,6 +76,7 @@ input, select {
 .eye_box h3{
   color:white;
   padding-left: 150px;
+  padding-top: 50px;
   margin-left: 150px;
   font-size: 20px;
 
@@ -83,31 +84,28 @@ input, select {
 .eye_box p{
   color:white;
   position: relative;
+  z-index: 1;
   padding-left: 150px;
   margin-left: 150px;
   padding-bottom: 200px;
   font-size: 15px;
 
 }
-
-
-.image1{
+.eye_box img{
   position: absolute;
   z-index: 2;
-  width: 350px;
-  left: 80%;
+  width: 35%;
+  height: 300px;
+  left: 65%;
   top: 30px;
 }
+
+
 
 .alignleft {
   width: 100px;
   height: 100px;
 }
-
-
-
-
-
 
 .eye_box1{
   position: absolute;
@@ -136,6 +134,7 @@ input, select {
 
 .about-wrap{
   display: flex;
+  width: fit-content;
   align-items: center;
   justify-content: space-around;
 }
@@ -143,7 +142,7 @@ input, select {
 .about-right{
   position: relative;
   top: 50px;
-  left: 38%;
+  left: 50%;
 }
 .about-right img{
   z-index: 2;
@@ -152,11 +151,21 @@ input, select {
 }
 .about-left{
   z-index: 1;
+  display: flexbox;
+  width: 1000px;
   position: relative;
   top: 50px;
-  left: 40%;
+  left: 30%;
   border: 1px solid white;
   background: #fff;
+}
+.about-left h3{
+  font-size: 18px;
+  color: #000;
+}
+.about-left p{
+  font-size: 14px;
+  color: #000;
 }
 .rightbox{
   position: relative;
@@ -164,6 +173,12 @@ input, select {
   right: 80%;
   background: #fff;
   border: 1px solid #fff;
+}
+
+.rightbox img{
+  z-index: 2;
+  display: block;
+  width: 50%;
 }
 /* business */
 #business {
@@ -234,86 +249,82 @@ input, select {
   padding: 40px 0 70px 0;
 }
 
+#company .company-question{
+  display: flex;
+  width: 600px;
+  height: 100px;
+  margin: 30px 300px;
+  background: #000;
+}
 #company .section-title {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 30px 0;
-  text-align: center;
-}
-
-#company .contain {
-  border-collapse: collapse;
-  width: 70%;
-  margin: 0 auto;
-}
-
-#company table tr {
-  border-bottom: 1px solid #333333;
-}
-
-#company th,
-#company td {
-  text-align: left;
-}
-
-#company th {
-  padding: 10px 0;
-}
-
-/* contact */
-#contact {
-  background: rgb(241, 241, 241);
-}
-
-#contact .section-title {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  padding: 40px 0;
-  margin: 0;
-}
-
-.form {
-  width: 70%;
-  margin: 0 auto;
-}
-
-label {
-  display: inline-block;
-  width: 30%;
-}
-
-input,
-textarea {
-  box-sizing: border-box;
-  border: 1px solid #999;
-  width: 65%;
-}
-
-input {
-  margin-bottom: 20px;
-  padding: 7px;
-}
-
-textarea {
-  vertical-align: top;
-  height: 200px;
-}
-
-.button-submit {
-  text-align: center;
-}
-
-.button {
-  padding: 10px 30px;
-  background-color: #000;
   color: #fff;
-  margin: 30px 0;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: left;
+
 }
+#company p{
+  color: #ccc;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+#contact {
+  height: 600px;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#contact .contact-wen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  color: #ccc;
+  line-height: 1;
+}
+
+
 
 /* footer */
-#footer {
-  height: 80px;
+.footer {
+  height: 200px;
+  background: #000;
   text-align: center;
   line-height: 80px;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.footer-nav ul{
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.footer-nav a {
+  color: #f2f2f2;
+}
+.footer small{
+  color: #ccc;
 }
