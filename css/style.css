@@ -69,7 +69,8 @@ select {
 
 #eyecatch .infonews {
   position: absolute;
-  top: 83%;
+  right: 0;
+  bottom: 0;
   left: 60%;
   width: 700px;
   height: 70px;
@@ -80,7 +81,7 @@ select {
   position: relative;
   top: 80%;
   width: 500px;
-  height: 50px;
+  height: 70px;
   background: white;
   color: #000;
 }
@@ -92,7 +93,7 @@ select {
   background: #000;
   color: #fff;
   text-align: center;
-  width: 40px;
+  width: 41px;
   height: 40px;
   padding: 10px;
 }
