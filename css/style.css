@@ -48,17 +48,17 @@ select {
 
 /* eyecatch */
 #eyecatch {
+  position: relative;
   height: 600px;
   background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
-#eyecatch p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+#eyecatch > p {
+  position: relative;
+  top: 60%;
+  left: 10%;
   transform: translate(-50%, -50%);
   font-size: 50px;
   font-style: italic;
@@ -66,32 +66,34 @@ select {
   color: #ccc;
   line-height: 1;
 }
-.infonews {
+#eyecatch .infonews {
   position: absolute;
-  top: 80%;
-  left: 58%;
-  font-size: 13px;
+  top: 83%;
+  left: 60%;
   width: 700px;
-  height: 40px;
+  height: 70px;
+  font-size: 12px !important; 
   padding: 10px;
 }
 .info1 {
   position: relative;
-  z-index: 5;
   top: 80%;
   width: 500px;
-  height: 40px;
+  height: 50px;
   background: white;
   color: #000;
 }
+
 .news {
-  position: relative;
-  left: 72%;
+  position: absolute;
+  top: -5%;
+  left: 95%;
   background: #000;
   color: #fff;
-  font-size: 12px;
+  text-align: center;
   width: 40px;
   height: 40px;
+  padding: 10px;
 }
 
 /*eye_box*/
@@ -244,6 +246,17 @@ select {
   padding: 80px;
   background: #fff;
 }
+.line3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #000;
+}
+.line1 {
+  margin-bottom: 10px;
+  color: #000;
+}
+
 .lecturebox {
   position: relative;
   width: 100px;
@@ -278,7 +291,8 @@ select {
   width: 45%;
   height: 350px;
   background: url(../img/company.jpeg) no-repeat;
-  padding: 20px 35px 30px;
+  background-position: center;
+  padding: 160px 35px 30px;
   box-sizing: border-box;
   margin-bottom: 50px;
 }
@@ -286,7 +300,8 @@ select {
   width: 45%;
   height: 350px;
   background: url(../img/recruit.jpg) no-repeat;
-  padding: 20px 35px 30px;
+  background-position: center;
+  padding: 160px 35px 30px;
   box-sizing: border-box;
   margin-bottom: 50px;
 }
@@ -333,16 +348,16 @@ select {
   font-weight: bold;
   font-size: 17px;
   text-align: left;
-  padding: 35px 0 0 0;
+  padding: 35px 0 0 30px;
 }
 #company p {
   position: relative;
   left: 80%;
   color: #ccc;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   left: 50px;
-  padding: 35px 0 0 0;
+  padding: 35px 0 0 130px;
 }
 
 /* contact */
@@ -402,7 +417,7 @@ select {
   font-size: 15px;
   width: 150px;
   height: 10px;
-  padding-bottom: 20px;
+  padding: 15px;
 }
 
 /* footer */
