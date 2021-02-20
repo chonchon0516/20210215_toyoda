@@ -71,7 +71,6 @@ select {
   position: absolute;
   right: 0;
   bottom: 0;
-  left: 60%;
   width: 700px;
   height: 70px;
   font-size: 12px !important; 
@@ -79,11 +78,15 @@ select {
 }
 .info1 {
   position: relative;
-  top: 80%;
+  top: 60%;
+  left: 25%;
   width: 500px;
   height: 70px;
   background: white;
   color: #000;
+}
+.info2{
+  margin-left: 10px;
 }
 
 .news {
@@ -94,7 +97,7 @@ select {
   color: #fff;
   text-align: center;
   width: 41px;
-  height: 40px;
+  height: 43px;
   padding: 10px;
 }
 
