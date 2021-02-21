@@ -232,9 +232,9 @@ select {
   z-index: 3;
   top: 150%;
   right: 60%;
-  left: 30%;
+  left: 20%;
   width: 500px;
-  padding: 60px;
+  padding: 80px;
   background: #fff;
 }
 .camera2 {
@@ -250,7 +250,7 @@ select {
   right: 80%;
   left: 20%;
   width: 500px;
-  padding: 60px;
+  padding: 80px;
   background: #fff;
 }
 .line3 {
@@ -266,8 +266,9 @@ select {
   font-size: 15px;
   color: #000;
 }
-.ine2{
-  padding-right: 300px;
+.line2{
+  width: 550px;
+  padding-right: 200px;
   font-size: 15px;
 }
 
