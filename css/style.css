@@ -256,18 +256,18 @@ select {
 .line3 {
   font-size: 18px;
   font-weight: bold;
-  margin-right: 200px;
+  padding-right: 300px;
   margin-bottom: 15px;
   color: #000;
 }
 .line1 {
-  margin-right: 200px;
   margin-bottom: 15px;
+  padding-right: 300px;
   font-size: 15px;
   color: #000;
 }
 .ine2{
-  margin-left: 250px;
+  padding-right: 300px;
   font-size: 15px;
 }
 
