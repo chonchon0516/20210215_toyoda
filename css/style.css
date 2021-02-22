@@ -44,6 +44,7 @@ select {
 
 .header-nav a {
   color: #f2f2f2;
+  text-decoration: none;
 }
 
 /* eyecatch */
@@ -73,7 +74,7 @@ select {
   bottom: 0;
   width: 700px;
   height: 70px;
-  font-size: 12px !important; 
+  font-size: 12px !important;
   padding: 10px;
 }
 .info1 {
@@ -85,7 +86,7 @@ select {
   background: white;
   color: #000;
 }
-.info2{
+.info2 {
   margin-left: 10px;
 }
 
@@ -111,16 +112,17 @@ select {
 }
 .eye_box h3 {
   color: white;
-  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 50px;
   margin-left: 150px;
+  margin-bottom: 15px;
   font-size: 20px;
 }
 .eye_box p {
   color: white;
   position: relative;
   z-index: 3;
-  padding-left: 150px;
+  padding-right: 150px;
   margin-left: 150px;
   padding-bottom: 200px;
   font-size: 15px;
@@ -148,6 +150,7 @@ select {
   color: #000;
   padding: 10px;
   font-size: 15px;
+  text-decoration: none;
 }
 
 /* about */
@@ -266,7 +269,7 @@ select {
   font-size: 15px;
   color: #000;
 }
-.line2{
+.line2 {
   width: 550px;
   padding-right: 200px;
   font-size: 15px;
@@ -441,7 +444,7 @@ select {
   height: 200px;
   background: #000;
   text-align: center;
-  line-height: 80px;
+  line-height: 120px;
 }
 
 .footer-wrap {
@@ -469,7 +472,9 @@ select {
 
 .footer-nav a {
   color: #f2f2f2;
+  text-decoration: none;
 }
 .footer small {
+  margin-bottom: 5px;
   color: #ccc;
 }
