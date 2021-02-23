@@ -376,11 +376,12 @@ select {
 }
 #company p {
   position: relative;
-  left: 80%;
+  left: 50%;
   color: #ccc;
   font-size: 13px;
   text-align: center;
-  left: 50px;
+  margin-left: -250px;
+  margin-bottom: -100px;
   padding: 35px 35px 0 110px;
 }
 
