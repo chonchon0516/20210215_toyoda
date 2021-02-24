@@ -62,7 +62,6 @@ select {
   left: 10%;
   transform: translate(-50%, -50%);
   font-size: 50px;
-  font-style: italic;
   font-weight: bold;
   margin-left: 15%;
   color: #ccc;
@@ -226,23 +225,28 @@ select {
 
 .about-wrap img {
   display: block;
-  width: 45%;
+  width: 50%;
 }
+
 .camera {
   position: relative;
   z-index: 2;
   top: 20%;
   margin-left: auto;
 }
+.about-wrap {
+  position: relative;
+}
 .text-wrap-first {
   position: absolute;
   z-index: 3;
-  top: 150%;
-  right: 60%;
-  left: 15%;
-  width: 70%;
-  max-width: 490px;
-  padding: 95px;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0;
+  width: 500px;
+  height: 150px;
+  padding: 80px;
   margin: 0 auto;
   background: #fff;
 }
@@ -255,12 +259,13 @@ select {
 .text-wrap-second {
   position: absolute;
   z-index: 3;
-  top: 205%;
-  right: 60%;
-  left: 30%;
-  width: 70%;
-  max-width: 490px;
-  padding: 95px;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0;
+  width: 500px;
+  height: 150px;
+  padding: 80px;
   margin: 0 auto;
   background: #fff;
 }
@@ -382,6 +387,7 @@ select {
   color: #ccc;
   font-size: 13px;
   text-align: center;
+  align-items: center;
   margin-left: -250px;
   margin-bottom: -100px;
   padding: 35px 35px 0 110px;
@@ -403,7 +409,6 @@ select {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 30px;
-  font-style: italic;
   color: #ccc;
   line-height: 1;
 }
@@ -412,13 +417,11 @@ select {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-style: italic;
   color: #ccc;
   line-height: 1;
 }
 .inquiry p {
   text-align: center;
-  font-style: italic;
   font-weight: bold;
   padding-bottom: 20px;
   line-height: 1;
