@@ -227,21 +227,21 @@ select {
   display: block;
   width: 50%;
 }
-
+.about-wrap {
+  position: relative;
+}
 .camera {
   position: relative;
   z-index: 2;
   top: 20%;
   margin-left: auto;
 }
-.about-wrap {
-  position: relative;
-}
+
 .text-wrap-first {
   position: absolute;
   z-index: 3;
-  top: 0%;
-  right: 0%;
+  top: 20%;
+  right: 20%;
   left: 0%;
   bottom: 0;
   width: 500px;
@@ -253,15 +253,15 @@ select {
 .camera2 {
   position: relative;
   z-index: 2;
-  top: 150%;
+  top: 170%;
   margin-right: auto;
 }
 .text-wrap-second {
   position: absolute;
   z-index: 3;
-  top: 0%;
-  right: 0%;
-  left: 0%;
+  top: 20%;
+  right: 20%;
+  left: 10%;
   bottom: 0;
   width: 500px;
   height: 150px;
@@ -387,7 +387,7 @@ select {
   color: #ccc;
   font-size: 13px;
   text-align: center;
-  align-items: center;
+  vertical-align: middle;
   margin-left: -250px;
   margin-bottom: -100px;
   padding: 35px 35px 0 110px;
