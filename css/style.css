@@ -372,7 +372,7 @@ select {
   display: flex;
   width: 600px;
   height: 100px;
-  margin: 30px 300px;
+  margin: 30px auto;
   background: #000;
 }
 #company .section-title {
