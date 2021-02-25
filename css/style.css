@@ -241,7 +241,7 @@ select {
   position: absolute;
   z-index: 3;
   top: 20%;
-  right: 20%;
+  right: 30%;
   left: 0%;
   bottom: 0;
   width: 500px;
@@ -253,14 +253,15 @@ select {
 .camera2 {
   position: relative;
   z-index: 2;
-  top: 170%;
+  top: 180%;
   margin-right: auto;
+  margin-top: 5%;
 }
 .text-wrap-second {
   position: absolute;
   z-index: 3;
   top: 20%;
-  right: 20%;
+  right: 10%;
   left: 10%;
   bottom: 0;
   width: 500px;
