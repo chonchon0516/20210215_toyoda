@@ -384,15 +384,14 @@ select {
 }
 #company p {
   position: absolute;
-  top: 362%;
+  top: 360%;
   /*left: 50%;*/
   width: 600px;
   height: 100px;
   color: #ccc;
   font-size: 13px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
   /*padding: 35px 35px 0 110px;*/
 }
 
